@@ -1,0 +1,94 @@
+.pageNumbers {
+  list-style: none;
+  display: flex;
+}
+
+.pageNumbers li {
+  padding: 10px;
+  border: 1px solid rgb(119, 116, 116);
+  cursor: pointer;
+}
+
+.pageNumbers li.active {
+  background-color: white;
+  color: black;
+}
+
+.pageNumbers li button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.pageNumbers li button:hover {
+  background-color: white;
+  color: black;
+}
+.pageNumbers li button:focus {
+  outline: none;
+}
+
+.loadmore {
+  padding: 1rem;
+  background-color: rgb(212, 210, 205);
+
+  color: rgb(19, 14, 14);
+  font-size: 1.2rem;
+  border: 1px solid rgb(123, 120, 120);
+  cursor: pointer;
+}
+
+
+.table {
+  border: 1px solid;
+  border-collapse: collapse;
+  font-family:arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin-top: 20px;
+ margin-bottom: 20px;
+ margin-left: 1.25in;
+}
+
+
+.h1  {
+  margin-left: 0%;
+}
+
+td  {  
+  border: 1px solid #dddddd;
+  
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #dddddd;
+}
+
+/* tr:nth-child(odd)  {
+  background-color: #dddddd;
+} */
+
+.input {
+  width: 290px;
+  height: 30px;
+  text-align: right;
+  font-size: 30px;
+}
+
+.p-input-icon-right {
+  margin-bottom: 20px;
+  width: "600px";
+
+
+}
+
+.p-input-icon-right input {
+  padding: 10px;
+}
+
+.head {
+  padding-left: 1.2cm;
+}
